@@ -1,0 +1,24 @@
+{
+  "name": "bull-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bull": "^4.16.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.6.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.4",
+    "pdfkit": "^0.15.0"
+  }
+}
